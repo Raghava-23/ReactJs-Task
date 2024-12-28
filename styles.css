@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 300px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+}
+
+.react-flow {
+  flex: 1;
+  background: #f0f0f0;
+}
